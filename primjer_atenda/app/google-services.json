@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "151375138040",
+    "project_id": "aatenda-2c2af",
+    "storage_bucket": "aatenda-2c2af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151375138040:android:96be8be4836bf18b543f0d",
+        "android_client_info": {
+          "package_name": "hr.ferit.elenalu.atendaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151375138040-svbcvp060dnmphf0b0jn2meo6ogt9eob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiuh5LAJx5pOlHJu0eRGCCwmKvZjBCt68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151375138040-svbcvp060dnmphf0b0jn2meo6ogt9eob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151375138040:android:3983346f66206e05543f0d",
+        "android_client_info": {
+          "package_name": "hr.ferit.elenalu.primjer_atenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151375138040-svbcvp060dnmphf0b0jn2meo6ogt9eob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiuh5LAJx5pOlHJu0eRGCCwmKvZjBCt68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151375138040-svbcvp060dnmphf0b0jn2meo6ogt9eob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

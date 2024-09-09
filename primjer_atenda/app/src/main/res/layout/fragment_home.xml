@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".HomeFragment"
+    android:id="@+id/add_class">
+
+
+    <include
+        android:id="@+id/toolbarNav"
+        layout="@layout/home_nav"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/class_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbarNav"
+        android:background="@color/gray" />
+
+
+</RelativeLayout>

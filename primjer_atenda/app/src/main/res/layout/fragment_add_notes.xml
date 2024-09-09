@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/add_notes"
+    android:background="@color/darkgray"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+
+        >
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#DCDCDC"
+
+
+        >
+
+    </Toolbar>
+
+        <TextView
+            android:id="@+id/title_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Notes"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="7dp"/>
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp">
+
+            <ImageButton
+                android:id="@+id/backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/icon_back" />
+
+
+            <ImageButton
+                android:id="@+id/addNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon_save" />
+
+
+        </RelativeLayout>
+
+        <EditText
+            android:background="@color/darkgray"
+            android:id="@+id/notes_name_edit"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Notes name"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:background="@color/darkgray"
+            android:id="@+id/add_some_notes"
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Add some notes.."
+            android:textColor="@color/white"
+            />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
